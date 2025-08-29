@@ -1,0 +1,70 @@
+body {
+  background: #f5f6fa;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+  background: #f5f6fa;
+}
+
+.blog-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.blog-posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 100%;
+}
+
+/* For larger screens, ensure we get exactly 3 columns for 9 posts */
+@media (min-width: 1200px) {
+  .blog-posts-grid {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+  }
+}
+
+.no-posts {
+  text-align: center;
+  color: #888;
+  font-size: 1.2rem;
+  padding: 3rem 0;
+}
+
+@media (max-width: 1024px) {
+  .main-content {
+    padding: 1.5rem 0.5rem 2rem 0.5rem;
+  }
+  .blog-posts-grid {
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1rem 0.25rem 1.5rem 0.25rem;
+  }
+  .blog-posts-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

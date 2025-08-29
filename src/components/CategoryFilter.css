@@ -1,0 +1,110 @@
+.category-filter {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category-btn {
+  background: #f8f9fa;
+  border: 2px solid #e9ecef;
+  color: #6c757d;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  font-size: 0.95rem;
+  min-width: 80px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.category-btn:hover:not(.active) {
+  background: #e9ecef;
+  border-color: #dee2e6;
+  color: #495057;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-btn.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-color: transparent;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+  font-weight: 700;
+}
+
+/* Specific colors for each category */
+.category-btn[data-category="All"].active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.category-btn[data-category="Tech"].active {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
+}
+
+.category-btn[data-category="Travel"].active {
+  background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+  box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+}
+
+.category-btn[data-category="Food"].active {
+  background: linear-gradient(135deg, #fd7e14 0%, #e55a00 100%);
+  box-shadow: 0 6px 20px rgba(253, 126, 20, 0.4);
+}
+
+/* Hover effects for each category */
+.category-btn[data-category="All"]:hover:not(.active) {
+  border-color: #667eea;
+  color: #667eea;
+}
+
+.category-btn[data-category="Tech"]:hover:not(.active) {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.category-btn[data-category="Travel"]:hover:not(.active) {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.category-btn[data-category="Food"]:hover:not(.active) {
+  border-color: #fd7e14;
+  color: #fd7e14;
+}
+
+.category-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.category-btn:hover::before {
+  left: 100%;
+}
+
+@media (max-width: 768px) {
+  .category-filter {
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .category-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}
