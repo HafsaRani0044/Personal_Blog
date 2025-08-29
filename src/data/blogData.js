@@ -6,7 +6,7 @@ export const blogPosts = [
     title: "Getting Started with React Hooks",
     category: "Tech",
     date: "2025-01-15",
-    image: "/src/imgs/New folder/2.jpg",
+    image: "/images/Tech/2.jpg",
     description: "Learn the fundamentals of React Hooks and how they can simplify your component logic.",
     excerpt: "React Hooks have revolutionized how we write React components..."
   },
@@ -15,7 +15,7 @@ export const blogPosts = [
     title: "Exploring the Mountains of Nepal",
     category: "Travel",
     date: "2025-01-10",
-    image: "/src/imgs/Travel/2.avif",
+    image: "/images/Travel/2.avif",
     description: "An incredible journey through the breathtaking landscapes of Nepal's mountain ranges.",
     excerpt: "The majestic peaks of Nepal offer an unforgettable adventure..."
   },
@@ -24,7 +24,7 @@ export const blogPosts = [
     title: "Desi Food Recipes",
     category: "Food",
     date: "2025-01-08",
-    image: "/src/imgs/Food/1.png",
+    image: "/images/Food/1.png",
     description: "Discover traditional Italian pasta recipes passed down through generations.",
     excerpt: "Nothing beats the comfort of homemade pasta made with love..."
   },
@@ -33,7 +33,7 @@ export const blogPosts = [
     title: "Modern JavaScript ES2024 Features",
     category: "Tech",
     date: "2025-01-05",
-    image: "/src/imgs/New folder/3.jpg",
+    image: "/images/Tech/3.jpg",
     description: "Explore the latest JavaScript features that are changing web development.",
     excerpt: "JavaScript continues to evolve with exciting new features..."
   },
@@ -42,7 +42,7 @@ export const blogPosts = [
     title: "Hidden Gems of Southeast Asia",
     category: "Travel",
     date: "2025-01-03",
-    image: "/src/imgs/Travel/3.jpg",
+    image: "/images/Travel/3.jpg",
     description: "Uncover the secret destinations that most tourists never see.",
     excerpt: "Beyond the popular tourist spots lie incredible hidden gems..."
   },
@@ -51,7 +51,7 @@ export const blogPosts = [
     title: "Mastering French Salad",
     category: "Food",
     date: "2025-01-01",
-    image: "/src/imgs/Food/2.png",
+    image: "/images/Food/2.png",
     description: "Learn the art of creating delicate French pastries from scratch.",
     excerpt: "French pastry making is both an art and a science..."
   },
@@ -60,7 +60,7 @@ export const blogPosts = [
     title: "Building Scalable Web APIs",
     category: "Tech",
     date: "2024-12-28",
-    image: "/src/imgs/New folder/4.jpg",
+    image: "/images/Tech/4.jpg",
     description: "Best practices for designing and building APIs that can handle growth.",
     excerpt: "Scalability is crucial when building modern web applications..."
   },
@@ -69,7 +69,7 @@ export const blogPosts = [
     title: "Solo Travel Guide to Japan",
     category: "Travel",
     date: "2024-12-25",
-    image: "/src/imgs/Travel/4.jpg",
+    image: "/images/Travel/4.jpg",
     description: "Everything you need to know for an amazing solo adventure in Japan.",
     excerpt: "Japan is one of the best countries for solo travelers..."
   },
@@ -78,7 +78,7 @@ export const blogPosts = [
     title: "Fresh oats Cooking Philosophy",
     category: "Food",
     date: "2024-12-22",
-    image: "/src/imgs/Food/3.jpg",
+    image: "/images/Food/3.jpg",
     description: "Understanding the importance of fresh, local ingredients in cooking.",
     excerpt: "Farm-to-table isn't just a trend, it's a way of life..."
   },
@@ -88,7 +88,7 @@ export const blogPosts = [
     title: "CSS Grid Layout Masterclass",
     category: "Tech",
     date: "2024-12-20",
-    image: "/src/imgs/New folder/5.jpg",
+    image: "/images/Tech/5.jpg",
     description: "Master the power of CSS Grid for creating complex layouts.",
     excerpt: "CSS Grid has transformed how we approach web layouts..."
   },
@@ -97,7 +97,7 @@ export const blogPosts = [
     title: "European Backpacking Adventure",
     category: "Travel",
     date: "2024-12-18",
-    image: "/src/imgs/Travel/5.jpg",
+    image: "/images/Travel/5.jpg",
     description: "A comprehensive guide to backpacking through Europe on a budget.",
     excerpt: "Europe offers incredible diversity for budget travelers..."
   },
@@ -106,7 +106,7 @@ export const blogPosts = [
     title: "Fully Fudge chocalate Cake Techniques",
     category: "Food",
     date: "2024-12-17",
-    image: "/src/imgs/Food/4.jpg",
+    image: "/images/Food/4.jpg",
     description: "Master the art of creating perfect Asian stir-fries with authentic flavors.",
     excerpt: "The secret to great stir-fries lies in technique and timing..."
   },
@@ -115,7 +115,7 @@ export const blogPosts = [
     title: "Advanced TypeScript Patterns",
     category: "Tech",
     date: "2024-12-15",
-    image: "/src/imgs/New folder/6.jpg",
+    image: "/images/Tech/6.jpg",
     description: "Explore advanced TypeScript patterns for better code organization.",
     excerpt: "TypeScript offers powerful patterns for large-scale applications..."
   },
@@ -124,7 +124,7 @@ export const blogPosts = [
     title: "Artisan Bread Baking Guide",
     category: "Food",
     date: "2024-12-14",
-    image: "/src/imgs/Food/5.jpg",
+    image: "/images/Food/5.jpg",
     description: "Creating perfect artisan breads with traditional techniques.",
     excerpt: "Bread baking is a meditative and rewarding culinary art..."
   },
@@ -133,7 +133,7 @@ export const blogPosts = [
     title: "Safari Experience in Kenya",
     category: "Travel",
     date: "2024-12-12",
-    image: "/src/imgs/Travel/6.webp",
+    image: "/images/Travel/6.webp",
     description: "Wildlife encounters and stunning landscapes in Kenya's national parks.",
     excerpt: "Kenya's wildlife offers some of the most spectacular safari experiences..."
   },
@@ -142,7 +142,7 @@ export const blogPosts = [
     title: "Vanilla Food Adventures",
     category: "Food",
     date: "2024-12-11",
-    image: "/src/imgs/Food/6.jpg",
+    image: "/images/Food/6.jpg",
     description: "Exploring the vibrant world of authentic Mexican street food.",
     excerpt: "Mexican street food offers an explosion of flavors and textures..."
   },
@@ -151,7 +151,7 @@ export const blogPosts = [
     title: "Node.js Performance Optimization",
     category: "Tech",
     date: "2024-12-10",
-    image: "/src/imgs/New folder/7.jpeg",
+    image: "/images/Tech/7.jpeg",
     description: "Techniques to optimize your Node.js applications for better performance.",
     excerpt: "Performance optimization is key to successful Node.js applications..."
   },
@@ -160,7 +160,7 @@ export const blogPosts = [
     title: "Northern Lights in Iceland",
     category: "Travel",
     date: "2024-12-08",
-    image: "/src/imgs/Travel/7.jpeg",
+    image: "/images/Travel/7.jpeg",
     description: "Chasing the Aurora Borealis in Iceland's dramatic landscapes.",
     excerpt: "Iceland provides the perfect backdrop for Northern Lights viewing..."
   },
@@ -169,7 +169,7 @@ export const blogPosts = [
     title: "Cookies Essentials",
     category: "Food",
     date: "2024-12-07",
-    image: "/src/imgs/Food/c1.jpeg",
+    image: "/images/Food/c1.jpeg",
     description: "Healthy and delicious Mediterranean cooking principles.",
     excerpt: "The Mediterranean diet combines health with incredible flavors..."
   },
@@ -178,7 +178,7 @@ export const blogPosts = [
     title: "React State Management Solutions",
     category: "Tech",
     date: "2024-12-05",
-    image: "/src/imgs/New folder/images.jpeg",
+    image: "/images/Tech/images.jpeg",
     description: "Comparing different state management solutions for React applications.",
     excerpt: "Choosing the right state management solution is crucial..."
   },
@@ -187,7 +187,7 @@ export const blogPosts = [
     title: "Cultural Immersion in Morocco",
     category: "Travel",
     date: "2024-12-03",
-    image: "/src/imgs/Travel/8.webp",
+    image: "/images/Travel/8.webp",
     description: "Exploring the rich culture, markets, and cuisine of Morocco.",
     excerpt: "Morocco offers a sensory overload of colors, flavors, and traditions..."
   },
@@ -196,7 +196,7 @@ export const blogPosts = [
     title: "Best Burger Mastery",
     category: "Food",
     date: "2024-12-02",
-    image: "/src/imgs/Food/bb.jpeg",
+    image: "/images/Food/bb.jpeg",
     description: "Learn the traditional art of sushi making from basics to advanced.",
     excerpt: "Sushi making requires precision, patience, and quality ingredients..."
   },
@@ -205,7 +205,7 @@ export const blogPosts = [
     title: "Web Security Best Practices",
     category: "Tech",
     date: "2024-12-01",
-    image: "/src/imgs/New folder/lang.jpeg",
+    image: "/images/Tech/lang.jpeg",
     description: "Essential security practices every web developer should know.",
     excerpt: "Security should be a top priority in web development..."
   },
@@ -214,7 +214,7 @@ export const blogPosts = [
     title: "Island Hopping in Greece",
     category: "Travel",
     date: "2024-11-28",
-    image: "/src/imgs/Travel/9.jpeg",
+    image: "/images/Travel/9.jpeg",
     description: "Discovering the beauty of Greek islands and their unique charms.",
     excerpt: "Each Greek island has its own personality and attractions..."
   },
@@ -223,7 +223,7 @@ export const blogPosts = [
     title: "Club Sandwiches Secrets",
     category: "Food",
     date: "2024-11-27",
-    image: "/src/imgs/Food/s4.jpg",
+    image: "/images/Food/s4.jpg",
     description: "Unlock the secrets of authentic Indian curry preparation.",
     excerpt: "Indian curries showcase the complexity of spice combinations..."
   },
@@ -232,7 +232,7 @@ export const blogPosts = [
     title: "Microservices Architecture Guide",
     category: "Tech",
     date: "2024-11-25",
-    image: "/src/imgs/New folder/2.jpg",
+    image: "/images/Tech/2.jpg",
     description: "Understanding microservices architecture and its implementation.",
     excerpt: "Microservices offer scalability and flexibility for modern applications..."
   },
@@ -241,7 +241,7 @@ export const blogPosts = [
     title: "Trekking in Patagonia",
     category: "Travel",
     date: "2024-11-23",
-    image: "/src/imgs/Travel/10.png",
+    image: "/images/Travel/10.png",
     description: "Epic hiking adventures in the stunning wilderness of Patagonia.",
     excerpt: "Patagonia's raw beauty challenges and rewards adventurous travelers..."
   },
@@ -250,7 +250,7 @@ export const blogPosts = [
     title: "Gourmet Burger Creations",
     category: "Food",
     date: "2024-11-22",
-    image: "/src/imgs/Food/b.jpg",
+    image: "/images/Food/b.jpg",
     description: "Elevating the humble burger with gourmet ingredients and techniques.",
     excerpt: "A great burger is about quality ingredients and perfect execution..."
   },
@@ -259,7 +259,7 @@ export const blogPosts = [
     title: "Database Design Fundamentals",
     category: "Tech",
     date: "2024-11-20",
-    image: "/src/imgs/New folder/3.jpg",
+    image: "/images/Tech/3.jpg",
     description: "Core principles of designing efficient and scalable databases.",
     excerpt: "Good database design is the foundation of any application..."
   },
@@ -268,7 +268,7 @@ export const blogPosts = [
     title: "Temple Tours in Cambodia",
     category: "Travel",
     date: "2024-11-18",
-    image: "/src/imgs/Travel/11.jpg",
+    image: "/images/Travel/11.jpg",
     description: "Exploring ancient temples and rich history in Cambodia.",
     excerpt: "Cambodia's temple complexes tell stories of ancient civilizations..."
   },
@@ -277,7 +277,7 @@ export const blogPosts = [
     title: "Artisan Chocolate Making",
     category: "Food",
     date: "2024-11-17",
-    image: "/src/imgs/Food/cake.webp",
+    image: "/images/Food/cake.webp",
     description: "The craft of creating handmade chocolates and confections.",
     excerpt: "Chocolate making combines chemistry with artistry..."
   },
@@ -286,7 +286,7 @@ export const blogPosts = [
     title: "Cloud Computing Essentials",
     category: "Tech",
     date: "2024-11-15",
-    image: "/src/imgs/New folder/4.jpg",
+    image: "/images/Tech/4.jpg",
     description: "Introduction to cloud computing platforms and services.",
     excerpt: "Cloud computing has revolutionized how we deploy applications..."
   },
@@ -295,7 +295,7 @@ export const blogPosts = [
     title: "Road Trip Through New Zealand",
     category: "Travel",
     date: "2024-11-13",
-    image: "/src/imgs/Travel/12.jpg",
+    image: "/images/Travel/12.jpg",
     description: "Epic road trip adventures through New Zealand's diverse landscapes.",
     excerpt: "New Zealand's varied terrain makes for perfect road trip destinations..."
   },
@@ -304,7 +304,7 @@ export const blogPosts = [
     title: "Traditional Desi Flavors",
     category: "Food",
     date: "2024-11-12",
-    image: "/src/imgs/Food/desi food.jpg",
+    image: "/images/Food/desi food.jpg",
     description: "Exploring the rich culinary heritage of South Asian cuisine.",
     excerpt: "Desi food represents centuries of culinary tradition and flavor..."
   },
@@ -313,7 +313,7 @@ export const blogPosts = [
     title: "DevOps Pipeline Automation",
     category: "Tech",
     date: "2024-11-10",
-    image: "/src/imgs/New folder/5.jpg",
+    image: "/images/Tech/5.jpg",
     description: "Implementing automated CI/CD pipelines for efficient deployment.",
     excerpt: "Automation is key to successful DevOps practices..."
   },
@@ -322,7 +322,7 @@ export const blogPosts = [
     title: "City Break in Vienna",
     category: "Travel",
     date: "2024-11-08",
-    image: "/src/imgs/Travel/istockphoto-1497396873-612x612.jpg",
+    image: "/images/Travel/istockphoto-1497396873-612x612.jpg",
     description: "Discovering the imperial grandeur and cultural richness of Vienna.",
     excerpt: "Vienna combines imperial history with modern cultural sophistication..."
   },
@@ -331,7 +331,7 @@ export const blogPosts = [
     title: "Perfect Shawarma Technique",
     category: "Food",
     date: "2024-11-07",
-    image: "/src/imgs/Food/shawarma.jpg",
+    image: "/images/Food/shawarma.jpg",
     description: "Creating authentic Middle Eastern shawarma at home.",
     excerpt: "Shawarma combines perfectly seasoned meat with fresh accompaniments..."
   },
@@ -340,7 +340,7 @@ export const blogPosts = [
     title: "Machine Learning with Python",
     category: "Tech",
     date: "2024-11-05",
-    image: "/src/imgs/New folder/6.jpg",
+    image: "/images/Tech/6.jpg",
     description: "Getting started with machine learning using Python libraries.",
     excerpt: "Python makes machine learning accessible to developers..."
   },
@@ -349,7 +349,7 @@ export const blogPosts = [
     title: "Adventure Sports in Switzerland",
     category: "Travel",
     date: "2024-11-03",
-    image: "/src/imgs/Travel/2.avif",
+    image: "/images/Travel/2.avif",
     description: "Thrilling outdoor activities in the Swiss Alps.",
     excerpt: "Switzerland offers world-class adventure sports opportunities..."
   },
@@ -358,7 +358,7 @@ export const blogPosts = [
     title: "Seasonal Cheezy pizza",
     category: "Food",
     date: "2024-11-02",
-    image: "/src/imgs/Food/p1.jpg",
+    image: "/images/Food/p1.jpg",
     description: "Creating beautiful desserts that celebrate seasonal fruits.",
     excerpt: "Seasonal fruits provide the perfect base for stunning desserts..."
   },
@@ -367,7 +367,7 @@ export const blogPosts = [
     title: "Progressive Web Apps Guide",
     category: "Tech",
     date: "2024-11-01",
-    image: "/src/imgs/New folder/7.jpeg",
+    image: "/images/Tech/7.jpeg",
     description: "Building Progressive Web Apps for better user experience.",
     excerpt: "PWAs bridge the gap between web and mobile applications..."
   },
@@ -376,7 +376,7 @@ export const blogPosts = [
     title: "Cultural Heritage of India",
     category: "Travel",
     date: "2024-10-29",
-    image: "/src/imgs/Travel/3.jpg",
+    image: "/images/Travel/3.jpg",
     description: "Exploring India's diverse cultural heritage and architectural wonders.",
     excerpt: "India's cultural diversity offers endless exploration opportunities..."
   },
@@ -385,7 +385,7 @@ export const blogPosts = [
     title: "Best Wrap Food Classics",
     category: "Food",
     date: "2024-10-28",
-    image: "/src/imgs/Food/w1.webp",
+    image: "/images/Food/w1.webp",
     description: "Reimagining classic comfort foods with modern twists.",
     excerpt: "Comfort food brings warmth and satisfaction to our daily lives..."
   },
@@ -394,7 +394,7 @@ export const blogPosts = [
     title: "GraphQL API Development",
     category: "Tech",
     date: "2024-10-25",
-    image: "/src/imgs/New folder/images.jpeg",
+    image: "/images/Tech/images.jpeg",
     description: "Creating efficient APIs with GraphQL and modern tools.",
     excerpt: "GraphQL offers a more efficient approach to API development..."
   },
@@ -403,7 +403,7 @@ export const blogPosts = [
     title: "Coastal Drives in Australia",
     category: "Travel",
     date: "2024-10-24",
-    image: "/src/imgs/Travel/4.jpg",
+    image: "/images/Travel/4.jpg",
     description: "Scenic coastal drives along Australia's stunning shorelines.",
     excerpt: "Australia's coast offers some of the world's most scenic drives..."
   }
